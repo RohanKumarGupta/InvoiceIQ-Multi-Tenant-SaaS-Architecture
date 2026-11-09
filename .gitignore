@@ -1,0 +1,17 @@
+# Local environment files
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Build and dependency output
+**/target/
+**/node_modules/
+**/dist/
+
+# Logs and local IDE files
+*.log
+.idea/
+.vscode/
